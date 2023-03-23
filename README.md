@@ -86,3 +86,106 @@ c. Create a TypeScript file to handle animations, such as common-button-play-ani
 Update any import statements in your codebase to reference the new submodule files.
 
 By following these steps, you can decompose a complex file into smaller, focused submodules that are easier to understand and maintain.
+
+
+## Examples Applying DanDecomp to different languages/patterns
+Althoguh DanDecomp was originally developed for React projects, it is meant to be a general naming system for any language or project. Here are some examples of how it can look applied to different stacks, languages, and design patterns:
+
+### Vue
+```
+src/
+  modules/
+    common/
+      button/
+        play/
+          play-button.vue
+          play-button-styles.scss
+          play-button-click.js
+          play-button-animation.js
+        record/
+          record-button.vue
+      popup-window/
+        popup-window.vue
+        popup-window-styles.scss
+  pages/
+    home/
+      home.vue
+    about/
+      about.vue
+```
+
+### React
+```src/
+  modules/
+    common/
+      button/
+        play/
+          play-button.tsx
+          play-button-styles.scss
+          play-button-click.ts
+          play-button-animation.ts
+        record/
+          record-button.tsx
+      popup-window/
+        popup-window.tsx
+        popup-window-styles.scss
+  pages/
+    home/
+      home.tsx
+    about/
+      about.tsx
+```
+
+### Typescript
+```src/
+  modules/
+    common/
+      button/
+        play/
+          play-button.ts
+          play-button-styling.ts
+          play-button-click.ts
+          play-button-animation.ts
+        record/
+          record-button.ts
+      popup-window/
+        popup-window.ts
+        popup-window.scss
+  pages/
+    home/
+      home.ts
+    about/
+      about.ts
+```
+
+### C
+```
+src/
+  modules/
+    common/
+      button/
+        play/
+          play-button.c
+          play-button.h
+          play-button-styling.c
+          play-button-styling.h
+          play-button-click.c
+          play-button-click.h
+          play-button-animation.c
+          play-button-animation.h
+        record/
+          record-button.c
+          record-button.h
+      popup-window/
+        popup-window.c
+        popup-window.h
+        popup-window-styles.c
+        popup-window-styles.h
+  pages/
+    home/
+      home.c
+      home.h
+    about/
+      about.c
+      about.h
+```
