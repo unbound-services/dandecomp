@@ -89,7 +89,7 @@ By following these steps, you can decompose a complex file into smaller, focused
 
 
 ## Examples Applying DanDecomp to different languages/patterns
-Althoguh DanDecomp was originally developed for React projects, it is meant to be a general naming system for any language or project. Here are some examples of how it can look applied to different stacks, languages, and design patterns:
+Although DanDecomp was originally developed for React projects, it is meant to be a general naming system for any language or project. Here are some examples of how it can look applied to different stacks, languages, and design patterns:
 
 ### Vue
 ```
