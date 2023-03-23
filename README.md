@@ -61,7 +61,7 @@ Create a new folder within the current module folder to represent the submodule.
 ```
 src/modules/common/button/play/
 ```
-Move the existing file into the newly created submodule folder:
+Move the existing file into the newly created submodule folder - (note that it is not necessary to rename this file):
 
 ```
 src/modules/common/button/play/common-button-play.ts
