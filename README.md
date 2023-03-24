@@ -17,7 +17,7 @@ The primary benefits and intent of the DanDecomp system are:
 
 2. **Use singular names for module and submodule folders**: Create folders with singular module names for each module and submodule, reflecting their purpose.
 
-3. **Adopt fully-qualified module names for files**: Use fully-qualified module names for files within the submodule folders, making it easier to expand single files into folders of modules without significant renaming.
+3. **Adopt fully-qualified module names for files**: Use fully-qualified module names (a file in common/button/play would be called common-button-play) for files within the submodule folders, making it easier to expand single files into folders of modules without significant renaming.
 
 4. **Decompose files into submodules**: When decomposing files into submodules, create a new folder, move the existing file into that folder, and continue breaking it down into smaller submodules, maintaining the original file name.
 
