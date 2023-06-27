@@ -136,10 +136,3 @@ src/
       about.tsx
 ```
 
-
-      home.c
-      home.h
-    about/
-      about.c
-      about.h
-```
