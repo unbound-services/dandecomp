@@ -1,5 +1,6 @@
 # DanDecomp: Dandelion Decomposition
 
+*this document is a work in progress*
 DanDecomp, short for Dandelion Decomposition, is a file organization system designed to facilitate code decomposition, maintainability, and scalability. The name is in reference to the idea of modules decomposing and "blowing away," planting, and developing their own submodules.  DanDecomp encourages breaking down larger modules into smaller, focused submodules that can evolve over time.
 
 ## Benefits and Intent
