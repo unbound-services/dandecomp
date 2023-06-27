@@ -98,15 +98,15 @@ src/
     common/
       button/
         play/
-          play-button.vue
-          play-button-styles.scss
-          play-button-click.js
-          play-button-animation.js
+          common-button-play.vue
+          common-button-play-styles.scss
+          common-button-play-click.js
+          common-button-play-animation.js
         record/
-          record-button.vue
+          common-button-record.vue
       popup-window/
-        popup-window.vue
-        popup-window-styles.scss
+        common-popup-window.vue
+        common-popup-window-styles.scss
   pages/
     home/
       home.vue
@@ -120,15 +120,15 @@ src/
     common/
       button/
         play/
-          play-button.tsx
-          play-button-styles.scss
-          play-button-click.ts
-          play-button-animation.ts
+          common-button-play.tsx
+          common-button-play-styles.scss
+          common-button-play-click.ts
+          common-button-play-animation.ts
         record/
-          record-button.tsx
+          common-button-record.tsx
       popup-window/
-        popup-window.tsx
-        popup-window-styles.scss
+        common-popup-window.tsx
+        common-popup-window-styles.scss
   pages/
     home/
       home.tsx
@@ -136,53 +136,7 @@ src/
       about.tsx
 ```
 
-### Typescript
-```src/
-  modules/
-    common/
-      button/
-        play/
-          play-button.ts
-          play-button-styling.ts
-          play-button-click.ts
-          play-button-animation.ts
-        record/
-          record-button.ts
-      popup-window/
-        popup-window.ts
-        popup-window.scss
-  pages/
-    home/
-      home.ts
-    about/
-      about.ts
-```
 
-### C
-```
-src/
-  modules/
-    common/
-      button/
-        play/
-          play-button.c
-          play-button.h
-          play-button-styling.c
-          play-button-styling.h
-          play-button-click.c
-          play-button-click.h
-          play-button-animation.c
-          play-button-animation.h
-        record/
-          record-button.c
-          record-button.h
-      popup-window/
-        popup-window.c
-        popup-window.h
-        popup-window-styles.c
-        popup-window-styles.h
-  pages/
-    home/
       home.c
       home.h
     about/
